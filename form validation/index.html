@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validation</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<div class="container">
+	
+
+<h1 class="text-center">LET'S KNOW ABOUT YOU </h1>
+
+<div class="col-lg-8 m-auto d-block">
+	
+<form action="file:///C:/Users/CPCR%20Dept/Desktop/js/basic/Myown/popup/index.html" onsubmit="return validation()">
+	
+<div class="uname">
+<label for="user">Username:</label>
+<input type="text" name="user" class="form-control" id="user" autocomplete="off" placeholder="Your username please..">
+<span id="username" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="pass">Password:</label>
+<input type="text" name="pass" class="form-control" id="pass" autocomplete="off" placeholder="Your password please..">
+<span id="passwords" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="conpass">Confirm Password:</label>
+<input type="text" name="conpass" class="form-control" id="conpass" autocomplete="off" placeholder="Re-enter your password please..">
+<span id="confirmpass" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="dob">Date of Birth(AD):</label>
+<input type="date" name="dob" class="form-control" id="dob" autocomplete="off">
+<span id="dobs" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="mobilenumber">Mobile Number:</label><br>
+<select id="no">
+	<option>+977</option>
+	<option>+1</option>
+	<option>+987</option>
+</select>
+<input type="number" name="mobile" class="form-control" id="mobilenumber" autocomplete="off" placeholder="Your contact number please..">
+<span id="mobileno" class="text-danger font-weight-bold"></span>
+</div>
+
+
+<div class="uname">
+<label for="gender">Gender:</label><br>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="othes">Others</label>
+<input type="radio" name="gender" id="others" value="others">
+</div>
+
+
+<div class="uname">
+<label for="email">Email Address:</label>
+<input type="email" name="email" class="form-control" id="email" autocomplete="off" placeholder="Your email address please..">
+<span id="emailids" class="text-danger font-weight-bold"></span>
+</div>
+
+
+<div class="uname">
+<label for="address">Home Address:</label>
+<input type="text" name="address" class="form-control" id="address" autocomplete="off" placeholder="Your hometown address please..">
+<span id="addresss" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="prof" >Profession:</label><br>
+<select id="prof">
+	<option>Engineer</option>
+	<option>Pilot</option>
+	<option>Business-Man</option>
+	<option>House-worker</option>
+	<option>Doctor</option>
+	<option>Others</option>
+</select>
+<span id="profs" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="doc">Document Upload:</label>
+<input type="file" name="doc" class="form-control" id="doc" autocomplete="off">
+<span id="docs" class="text-danger font-weight-bold"></span>
+</div>
+
+<div class="uname">
+<label for="signup">Sign me up for newsletter:</label>
+<input type="checkbox" name="signup" id="signup">
+</div>
+
+
+<div class="uname">
+<label for="agree">I have read and agreed all the terms and condition:</label>
+<input type="checkbox" name="agree" id="agree" checked="checked"><br>
+<span class="text-center text-danger">* Notice: By selecting this, you are accepting our terms and condition.</span>
+</div>
+
+<div class="uname">
+<input type="submit" name="submit" value="Submit" class="btn btn-success" >
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

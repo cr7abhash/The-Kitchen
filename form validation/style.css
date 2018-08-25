@@ -1,0 +1,59 @@
+body {
+
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(img/img10.jpg);
+background-repeat: no-repeat;
+font-family: monospace;
+background-size: 100% 700px;
+background-attachment: fixed;
+
+}
+
+
+h1 {
+
+	color: white;
+
+}
+
+
+ h1:after {
+
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin:10px auto;
+	margin-bottom: 10px;
+
+}
+
+.container .uname {
+
+
+	padding: 20px;
+	width: 600px;
+	position: relative;
+
+}
+
+form {
+
+	margin-left: 250px;
+	position: absolute;
+	background-color:#E5E4E4;
+	background: cover;
+
+
+}
+
+label {
+	cursor: pointer;
+}
+
+
+#prof {
+	width: 300px;
+}
+
+

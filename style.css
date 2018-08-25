@@ -1,0 +1,422 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family: tahoma;
+
+}
+
+.hello {
+
+	
+	width: 1140px;
+	margin-top: 100px; /* position:absolute */
+	margin-left: 150px; /*left: 50%;
+						transform: translate(-50%,-50%); */
+	
+}
+
+
+header #container {
+
+scroll-behavior: smooth;
+	overflow-x: scroll;
+
+}
+
+header {
+
+	background: no-repeat;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/bgfood3.jpg); /*to simply low the brightness of background img*/
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+header #butn {
+	float: right;
+	margin-top: -380px;
+}
+
+.btn1 {
+	border: 2px solid white;
+	width: 30px;
+	border-radius: 30px;
+	padding: 5px 20px;
+}
+
+#butn .btn-sign {
+	
+	color:#e67e22;
+	
+}
+
+#butn .btn-sign:hover {
+	text-decoration: none;
+	background-color: white;
+	transition: all 0.4s ease-in;
+}
+
+
+#butn .btn-reg {
+	border-color: #e67e22;
+	color: white;
+}
+
+#butn .btn-reg:hover {
+
+	text-decoration: none;
+	background-color: #e67e22;
+	transition: all 0.4s ease-in;
+
+}
+
+
+header .row {
+
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+
+header .main-nav {
+	
+	list-style: none;
+	float: right;
+	margin-top: 100px;
+	margin-left: 500px;
+
+}
+
+header .main-nav li {
+	padding:0 10px; 
+	display: inline;
+	margin-left:0px; 
+
+}
+
+header .main-nav li a {
+	
+	color: white;
+	text-decoration: none;
+	font-size: 85%;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+
+header .main-nav li a:hover {
+	
+	color:#e67e22;
+	border-bottom:1px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+
+}
+
+
+header h1 {
+
+	color: white;
+
+}
+
+header .logo img {
+
+	height:100px;
+	float: left;
+	margin-top: 30px;
+	margin-left:-90px;
+
+}
+
+.btn {
+
+	border: 2px solid #e67e22;
+	padding:10px 30px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 15px;
+	margin-right: 15px;
+}
+
+
+.button {
+
+	margin-top: 40px;
+}
+
+.btn-half {
+
+	background-color: #e67e22;
+	color: white;
+}
+
+.btn-half:hover {
+
+	color: black;
+}
+
+.btn.btn-full {
+
+	border: 1px solid #e67e22;
+
+}
+
+.btn-full:hover {
+
+	background-color: #e67e22;
+	color: white;
+	transition: all 0.5s ease-in;
+
+}
+
+
+
+
+section h3 {
+
+	margin-top: 80px;
+	margin-bottom: 30px;
+
+} 
+
+.copy {
+
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 30px;
+	text-align: left;
+
+}
+
+h3:after {
+
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin:30px auto;
+
+}
+
+.arranging {
+
+	text-align: justify; /* it will arrange the text in line*/
+
+}
+
+#features i {
+
+	font-size: 30px;
+	color: #e67e22;
+	margin-left: 47%;
+	margin-bottom: 5px;
+
+}
+
+
+#features h4 {
+
+	margin-left: 30px;
+}
+
+.meal-showcase {
+	list-style: none;
+	width: 100%;
+}
+
+.meal-showcase li {
+
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.meal-photo {
+	width: 100%;
+	margin:0;
+	overflow: hidden; 
+}
+
+
+.meal-photo img {
+
+	width: 100%;
+	height: 50%;
+	transform: scale(1.15); /*to make it look like 3D*/
+	transition:all 0.5s;
+}
+
+.meal-photo img:hover {
+	transform: scale(1.05);
+}
+
+#meal {
+	margin-top:70px;
+}
+
+#mobile h3 {
+	margin-top: 30px;
+}
+
+.pic img {
+	width: 57%;
+	height: 290px;
+	margin-left: 45%;
+
+}
+
+.works-steps {
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.works-steps div {
+
+	border:1px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height:50px;
+	
+}
+
+.works-steps img {
+	 height: 40px;
+	 margin-top: 20px;
+	 margin-right: 20px;
+}
+
+.clearfix {
+
+	zoom:1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+#mobile {
+	margin-top: 60px;
+}
+
+#cities img {
+	width: 100%;
+}
+
+#cities h4 {
+	margin-top: 20px;
+}
+
+#cities i {
+
+color: #e67e22;
+}
+
+
+#testimonials cite img{
+	
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 15px;
+
+}
+
+#testimonials {
+	
+	margin-top: 40px; 
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ),url(img/kuala.jpg);
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	background-attachment: fixed;
+
+}
+ 
+#testimonials p {
+
+	color: white;
+	line-height: 25px;
+	text-align: justify; /*text will be align properly */
+	margin-top: 40px;
+}
+
+.btn.btn-warning.btn-block {
+
+	background-color: #e67e22;
+	color: white;
+	border-radius: 40px;	
+}
+
+.gap {
+
+	margin-top: 50px;
+
+}
+
+
+footer {
+	
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('img/bgfood8.jpg');
+	background-repeat: none;
+	background-attachment: fixed;
+	height: 300px;
+	margin-top: 50px;
+
+}
+
+
+footer h3 {
+
+padding-top: 40px;
+color: white;
+
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	padding: 20px;
+
+}
+
+footer .fa {
+
+	font-size: 40px;
+	margin-right: 15px;
+
+}
+
+
+footer a {
+
+	color: white;
+	font-size: 20px;
+	display: inline;
+}
+
+footer a:hover {
+color: #e67e22;
+text-decoration: none;
+border: 2px solid #e67e22;
+border-radius: 35%;
+transition: all 0.22s ease-in;
+padding: 5px 0;
+}
+

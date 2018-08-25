@@ -1,0 +1,26 @@
+body {
+
+background:linear-gradient((0,0,0,0.7),url('img/img6.jpg'));
+background-repeat: no-repeat;
+
+}
+
+
+
+.container .uname {
+
+
+	padding: 20px;
+	width: 600px;
+	
+	position: relative;
+
+}
+
+form {
+
+	margin-left: 250px;
+	position: absolute;
+
+
+}
